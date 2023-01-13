@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+body {
+  background-image: url(../images/main\ bg.png);
+}
+.heading h3 {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  padding-top: 80px;
+}
+.container {
+  background-color: #031936;
+  margin: auto;
+  width: 40%;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+.container h2 {
+  font-size: 150px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  color: #fff;
+  margin: 0;
+}
+.container .number {
+  margin-bottom: 40px;
+}
+.btn-part {
+  padding: 0 0 20px 0;
+}
+button {
+  font-size: 25px;
+  font-weight: 700;
+  font-weight: 600;
+  padding: 2px 15px;
+  border: 2px solid #d4d4d4;
+  border-radius: 5px;
+  transition: 0.3s;
+  background-color: #d4d4d4;
+}
+button#remove:hover {
+  background: red;
+}
+button#add:hover {
+  background: green;
+}
+button#reset:hover {
+  background: #5f3be0;
+}
+.btn-part i {
+  padding: 3px 10px;
+}
+button#reset {
+  margin: 0 20px 0px 20px;
+}
