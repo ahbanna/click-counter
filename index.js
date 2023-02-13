@@ -1,22 +1,19 @@
-const btnIncrement = document.getElementById("add");
-const btnDecrement = document.getElementById("remove");
-const btnReset = document.getElementById("reset");
-
-const output = document.getElementById("data");
-
 let count = 0;
 
-btnIncrement.onclick = () => {
-  count++;
-  output.innerHTML = count;
-};
+const increment = document.getElementById("add");
+increment.addEventListener("click", function () {
+  count = count + 1;
+  document.getElementById("data").innerText = count;
+});
 
-btnDecrement.onclick = () => {
-  count--;
-  output.innerHTML = count;
-};
+const decrement = document.getElementById("remove");
+decrement.addEventListener("click", function () {
+  count = count - 1;
+  document.getElementById("data").innerText = count;
+});
 
-btnReset.onclick = () => {
+const reset = document.getElementById("reset");
+reset.addEventListener("click", function () {
   count = 0;
-  output.innerHTML = count;
-};
+  document.getElementById("data").innerText = count;
+});
